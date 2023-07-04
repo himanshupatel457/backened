@@ -262,7 +262,7 @@ export const getResetPasswordLink = async (req, res, next) => {
                   </a>
                 </p>
                 <p style="font-size: 16px;">
-                  If you didn't request this password reset, please ignore this email.
+                  If you didn't request this password reset, please ignore this email
                 </p>
               </div>
             `,
