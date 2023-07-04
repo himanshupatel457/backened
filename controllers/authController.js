@@ -257,8 +257,8 @@ export const getResetPasswordLink = async (req, res, next) => {
                 </p>
                 <p style="font-size: 16px; margin-bottom: 10px;">
                   Reset Password Link:
-                  <a href="http://localhost:3000/reset-password/${user._id}/${token}" style="font-size: 16px; text-decoration: underline; color: #000000;">
-                    http://localhost:3000/reset-password/${user._id}/${token}
+                  <a href="https://ecom-frontend-theta.vercel.app/reset-password/${user._id}/${token}" style="font-size: 16px; text-decoration: underline; color: #000000;">
+                  https://ecom-frontend-theta.vercel.app/reset-password/${user._id}/${token}
                   </a>
                 </p>
                 <p style="font-size: 16px;">
